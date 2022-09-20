@@ -7,7 +7,7 @@
        name: apache2
        state: present
 
-  - name:  i want to start webserver on ununtu nodes  
+  - name:  i want to start webserver on ubuntu nodes  
     service:
        name: apache2
        state: started
