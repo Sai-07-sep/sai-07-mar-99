@@ -1,0 +1,14 @@
+---
+- hosts: all
+  tasks:
+   - name: install httpd on RedHat
+     apt:
+       name: httpd
+       state: present
+
+   - name: i want to start httpd on RedHat 
+     service:
+      name: httpd
+      state: started
+
+
